@@ -75,7 +75,7 @@ def error(bot,update):
 bot = Bot(TOKEN)
 # handle multiple requests
 try:
-    bot.set_webhook("https://c0f9d921d158.ngrok.io/" + TOKEN)
+    bot.set_webhook("https://intense-basin-11792.herokuapp.com/" + TOKEN)
 except Exception as e:
     print(e)
 
